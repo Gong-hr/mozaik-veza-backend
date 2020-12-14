@@ -1,0 +1,37 @@
+{% block subject %}Mozaik veza{% endblock %}
+
+
+{% block plain %}
+    Poštovani,
+
+    ovo je automatski generirana obavijest koju dobivate jer ste se pretplatili na dobivanje obavijesti o novim unosima na Mozaiku veza.
+
+    Mozaik veza je osvježio podatke subjekata na koje ste se pretplatili.
+
+    Za informacije o pravima na privatnost, pročitajte Pravila privatnosti: https://www.mozaikveza.hr/article/pravila_privatnosti
+    Ostale pravne napomene možete naći u Uvjetima korištenja: https://www.mozaikveza.hr/article/uvjeti_koristenja
+
+    Lijepi pozdrav,
+
+    tim Mozaika veza
+{% endblock %}
+
+
+{% block html %}
+    Poštovani,<br>
+    <br>
+    ovo je automatski generirana obavijest koju dobivate jer ste se pretplatili na dobivanje obavijesti o novim unosima na Mozaiku veza.<br>
+    <br>
+    Mozaik veza je osvježio podatke subjekata na koje ste se pretplatili:<br>
+    <br>
+    {% for public_id in public_ids %}
+        <a href="https://www.mozaikveza.hr/entity/{{ public_id }}">https://www.mozaikveza.hr/entity/{{ public_id }}</a>.<br>
+    {% endfor %}
+    <br>
+    Za informacije o pravima na privatnost, pročitajte <a href="https://www.mozaikveza.hr/article/pravila_privatnosti">Pravila privatnosti</a>.<br>
+    Ostale pravne napomene možete naći u <a href="https://www.mozaikveza.hr/article/uvjeti_koristenja">Uvjetima korištenja</a>.<br>
+    <br>
+    Lijepi pozdrav,<br>
+    <br>
+    tim Mozaika veza
+{% endblock %}

@@ -1,0 +1,27 @@
+[
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 16,
+  "fields": {
+    "string_id": "complex",
+    "name": "Complex"
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 16,
+  "fields": {
+    "string_id": "default_complex",
+    "name": "Default Complex",
+    "data_type": 16,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+}
+]

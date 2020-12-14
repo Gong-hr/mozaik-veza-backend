@@ -1,0 +1,37 @@
+{% block subject %}Mozaik veza{% endblock %}
+
+
+{% block plain %}
+    Dobro došli! Uspješno ste se registrirali na Mozaik veza.
+
+    Molimo da potvrdite svoj identitet klikom na link za verifikaciju adrese vaše elektroničke pošte: https://www.mozaikveza.hr/verify_email/{{ username }}/{{ token }}
+
+    Nakon verifikacije, svome korisničkom računu nadalje možete pristupiti na https://www.mozaikveza.hr/login koristeći korisničko ime i lozinku koje ste postavili prilikom registracije.
+
+    Ako ste dobili ovu elektroničku poruku, a niste se registrirali na mozaikveza.hr, javite nam se na info@mozaikveza.hr
+
+    Za informacije o pravima na privatnost, pročitajte Pravila privatnosti: https://www.mozaikveza.hr/article/pravila_privatnosti
+    Ostale pravne napomene možete naći u Uvjetima korištenja: https://www.mozaikveza.hr/article/uvjeti_koristenja
+
+    Lijepi pozdrav,
+
+    tim Mozaika veza
+{% endblock %}
+
+
+{% block html %}
+    Dobro došli! Uspješno ste se registrirali na Mozaik veza.<br>
+    <br>
+    Molimo da potvrdite svoj identitet klikom na link za verifikaciju adrese vaše elektroničke pošte: <a href="https://www.mozaikveza.hr/verify_email/{{ username }}/{{ token }}">https://www.mozaikveza.hr/verify_email/{{ username }}/{{ token }}</a>.<br>
+    <br>
+    Nakon verifikacije, svome korisničkom računu nadalje možete pristupiti <a href="https://www.mozaikveza.hr/login">ovdje</a> koristeći korisničko ime i lozinku koje ste postavili prilikom registracije.<br>
+    <br>
+    Ako ste dobili ovu elektroničku poruku, a niste se registrirali na mozaikveza.hr, javite nam se na info@mozaikveza.hr.<br>
+    <br>
+    Za informacije o pravima na privatnost, pročitajte <a href="https://www.mozaikveza.hr/article/pravila_privatnosti">Pravila privatnosti</a>.<br>
+    Ostale pravne napomene možete naći u <a href="https://www.mozaikveza.hr/article/uvjeti_koristenja">Uvjetima korištenja</a>.<br>
+    <br>
+    Lijepi pozdrav,<br>
+    <br>
+    tim Mozaika veza
+{% endblock %}

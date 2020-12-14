@@ -1,0 +1,29 @@
+[
+{
+  "model": "mocbackend.staticentitytype",
+  "pk": 5,
+  "fields": {
+    "string_id": "savings",
+    "name": "Štednja"
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 9,
+  "fields": {
+    "string_id": "savings_name",
+    "name": "Ime",
+    "entity_type": 5,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-08-28T15:33:20.273Z",
+    "created_at": "2017-08-28T15:33:20.273Z",
+    "published": true,
+    "deleted": false
+  }
+}
+]

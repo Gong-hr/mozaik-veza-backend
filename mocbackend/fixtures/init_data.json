@@ -1,0 +1,661 @@
+[
+{
+  "model": "mocbackend.staticchangetype",
+  "pk": 1,
+  "fields": {
+    "string_id": "create",
+    "name": "Kreiranje"
+  }
+},
+{
+  "model": "mocbackend.staticchangetype",
+  "pk": 2,
+  "fields": {
+    "string_id": "update",
+    "name": "Promjena"
+  }
+},
+{
+  "model": "mocbackend.staticchangetype",
+  "pk": 3,
+  "fields": {
+    "string_id": "delete",
+    "name": "Brisanje"
+  }
+},
+{
+  "model": "mocbackend.staticconnectiontypecategory",
+  "pk": 1,
+  "fields": {
+    "string_id": "imovinsko_pravna",
+    "name": "Imovinsko pravna"
+  }
+},
+{
+  "model": "mocbackend.staticconnectiontypecategory",
+  "pk": 2,
+  "fields": {
+    "string_id": "interesna",
+    "name": "Interesna"
+  }
+},
+{
+  "model": "mocbackend.staticconnectiontypecategory",
+  "pk": 3,
+  "fields": {
+    "string_id": "obiteljska",
+    "name": "Obiteljska"
+  }
+},
+{
+  "model": "mocbackend.staticconnectiontypecategory",
+  "pk": 4,
+  "fields": {
+    "string_id": "politicka",
+    "name": "Politi\u010dka"
+  }
+},
+{
+  "model": "mocbackend.staticconnectiontypecategory",
+  "pk": 5,
+  "fields": {
+    "string_id": "poslovna",
+    "name": "Poslovna"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 1,
+  "fields": {
+    "string_id": "boolean",
+    "name": "Boolean"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 2,
+  "fields": {
+    "string_id": "int",
+    "name": "Integer Number"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 3,
+  "fields": {
+    "string_id": "fixed_point",
+    "name": "Fixed Point Decimal Number"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 4,
+  "fields": {
+    "string_id": "floating_point",
+    "name": "Floating Point Decimal Number"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 5,
+  "fields": {
+    "string_id": "string",
+    "name": "String"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 6,
+  "fields": {
+    "string_id": "text",
+    "name": "Text"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 7,
+  "fields": {
+    "string_id": "datetime",
+    "name": "Datetime"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 8,
+  "fields": {
+    "string_id": "date",
+    "name": "Date"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 9,
+  "fields": {
+    "string_id": "geo",
+    "name": "Geographical Point"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 10,
+  "fields": {
+    "string_id": "range_int",
+    "name": "Range of Integer Numbers"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 11,
+  "fields": {
+    "string_id": "range_fixed_point",
+    "name": "Range of Fixed Point Decimal Numbers"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 12,
+  "fields": {
+    "string_id": "range_floating_point",
+    "name": "Range of Floating Point Decimal Numbers"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 13,
+  "fields": {
+    "string_id": "range_datetime",
+    "name": "Range of Datetimes"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 14,
+  "fields": {
+    "string_id": "range_date",
+    "name": "Range of Dates"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 15,
+  "fields": {
+    "string_id": "codebook",
+    "name": "Value from Codebook"
+  }
+},
+{
+  "model": "mocbackend.staticdatatype",
+  "pk": 16,
+  "fields": {
+    "string_id": "complex",
+    "name": "Complex"
+  }
+},
+{
+  "model": "mocbackend.stagecodebook",
+  "pk": 1,
+  "fields": {
+    "string_id": "legal_entity_type",
+    "name": "Legal Entity Type",
+    "is_closed": false,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 1,
+  "fields": {
+    "string_id": "default_boolean",
+    "name": "Default Boolean",
+    "data_type": 1,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": "[True,False]",
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 2,
+  "fields": {
+    "string_id": "default_int",
+    "name": "Default Integer Number",
+    "data_type": 2,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 3,
+  "fields": {
+    "string_id": "default_fixed_point",
+    "name": "Default Fixed Point Decimal Number",
+    "data_type": 3,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 4,
+  "fields": {
+    "string_id": "default_floating_point",
+    "name": "Default Floating Point Decimal Number",
+    "data_type": 4,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 5,
+  "fields": {
+    "string_id": "default_string",
+    "name": "Default String",
+    "data_type": 5,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 6,
+  "fields": {
+    "string_id": "default_text",
+    "name": "Default Text",
+    "data_type": 6,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 7,
+  "fields": {
+    "string_id": "default_datetime",
+    "name": "Default Datetime",
+    "data_type": 7,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 8,
+  "fields": {
+    "string_id": "default_date",
+    "name": "Default Date",
+    "data_type": 8,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 9,
+  "fields": {
+    "string_id": "default_geo",
+    "name": "Default Geographical Point",
+    "data_type": 9,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": "(range(-90,90),range(-180,180))",
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 10,
+  "fields": {
+    "string_id": "default_range_int",
+    "name": "Default Range of Integer Numbers",
+    "data_type": 10,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 11,
+  "fields": {
+    "string_id": "default_range_fixed_point",
+    "name": "Default Range of Fixed Point Decimal Numbers",
+    "data_type": 11,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 12,
+  "fields": {
+    "string_id": "default_range_floating_point",
+    "name": "Default Range of Floating Point Decimal Numbers",
+    "data_type": 12,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 13,
+  "fields": {
+    "string_id": "default_range_datetime",
+    "name": "Default Range of Datetimes",
+    "data_type": 13,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 14,
+  "fields": {
+    "string_id": "default_range_date",
+    "name": "Default Range of Dates",
+    "data_type": 14,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 15,
+  "fields": {
+    "string_id": "codebook_legal_entity_type",
+    "name": "Codebook Legal Entity Type",
+    "data_type": 15,
+    "is_multivalue": false,
+    "codebook": 1,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattributetype",
+  "pk": 16,
+  "fields": {
+    "string_id": "default_complex",
+    "name": "Default Complex",
+    "data_type": 16,
+    "is_multivalue": false,
+    "codebook": null,
+    "permited_values": null,
+    "fixed_point_decimal_places": null,
+    "range_floating_point_from_inclusive": null,
+    "range_floating_point_to_inclusive": null,
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.staticentitytype",
+  "pk": 1,
+  "fields": {
+    "string_id": "person",
+    "name": "Fizička osoba"
+  }
+},
+{
+  "model": "mocbackend.staticentitytype",
+  "pk": 2,
+  "fields": {
+    "string_id": "legal_entity",
+    "name": "Pravna osoba"
+  }
+},
+{
+  "model": "mocbackend.staticentitytype",
+  "pk": 3,
+  "fields": {
+    "string_id": "real_estate",
+    "name": "Nekretnina"
+  }
+},
+{
+  "model": "mocbackend.staticentitytype",
+  "pk": 4,
+  "fields": {
+    "string_id": "movable",
+    "name": "Pokretnina"
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 1,
+  "fields": {
+    "string_id": "person_first_name",
+    "name": "Ime",
+    "entity_type": 1,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-08-28T15:33:20.271Z",
+    "created_at": "2017-08-28T15:33:20.271Z",
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 2,
+  "fields": {
+    "string_id": "person_last_name",
+    "name": "Prezime",
+    "entity_type": 1,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-08-28T15:33:20.272Z",
+    "created_at": "2017-08-28T15:33:20.272Z",
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 3,
+  "fields": {
+    "string_id": "legal_entity_name",
+    "name": "Ime",
+    "entity_type": 2,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-08-28T15:33:20.273Z",
+    "created_at": "2017-08-28T15:33:20.273Z",
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 4,
+  "fields": {
+    "string_id": "legal_entity_entity_type",
+    "name": "Tip pravne osobe",
+    "entity_type": 2,
+    "collection": null,
+    "attribute_type": 15,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-11-23T13:03:00.252Z",
+    "created_at": "2017-11-23T13:03:00.252Z",
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 5,
+  "fields": {
+    "string_id": "person_vat_number",
+    "name": "OIB",
+    "entity_type": 1,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-11-23T13:03:00.252Z",
+    "created_at": "2017-11-23T13:03:00.252Z",
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 6,
+  "fields": {
+    "string_id": "legal_entity_vat_number",
+    "name": "OIB",
+    "entity_type": 2,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-11-23T13:03:00.252Z",
+    "created_at": "2017-11-23T13:03:00.252Z",
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 7,
+  "fields": {
+    "string_id": "real_estate_name",
+    "name": "Ime",
+    "entity_type": 3,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-08-28T15:33:20.273Z",
+    "created_at": "2017-08-28T15:33:20.273Z",
+    "published": true,
+    "deleted": false
+  }
+},
+{
+  "model": "mocbackend.stageattribute",
+  "pk": 8,
+  "fields": {
+    "string_id": "movable_name",
+    "name": "Ime",
+    "entity_type": 4,
+    "collection": null,
+    "attribute_type": 5,
+    "is_required": false,
+    "is_unique": false,
+    "default_value": null,
+    "order_number": 10000,
+    "updated_at": "2017-08-28T15:33:20.273Z",
+    "created_at": "2017-08-28T15:33:20.273Z",
+    "published": true,
+    "deleted": false
+  }
+}
+]
