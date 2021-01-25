@@ -9,6 +9,8 @@ korištenje naprednih softverskih alata.
 
 ## Tehnički preduvijeti
 
+Mozaik veza je Django aplikacija.
+
 - Linux
 - Python 3.5 ili više
 - PostgreSQL
@@ -27,13 +29,15 @@ mkdir moc
 cd moc
 python3 -m venv .virtualenv
 source .virtualenv/bin/activate
-git clone https://xxx/mocbackend.git moc
+git clone https://github.com/Gong-hr/mozaik-veza-backend.git moc
 cd moc
 pip install wheel
 pip install --upgrade -r requirements.txt
 ```
 
 ## Konfiguracija
+
+Konfiguracijska datoteka je `moc/settings.py`.
 
 ## Inicijalizacija
 
@@ -52,8 +56,6 @@ python manage.py reindex-elasticsearch --init-entity-entity-log --entity-entity-
 python manage.py reindex-elasticsearch --init-codebook-values --codebook-values
 python manage.py build-graph-neo4j --init-entities --entities
 ```
-
-## Pokretanje
 
 ### Workers
 
